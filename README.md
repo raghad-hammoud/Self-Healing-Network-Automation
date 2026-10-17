@@ -7,10 +7,10 @@
 This project presents a closed-loop **Self-Healing Network Architecture** that integrates infrastructure redundancy (HSRP & OSPF) with autonomous Python software agents.
 It is designed to detect and mitigate network threats (such as DoS floods, port scanning, and ARP spoofing) in real-time, ensuring High Availability and Service Continuity without manual intervention.
 ## 🛠️ Tech Stack & Simulation Environment
-* **Simulation Platforms:** GNS3 (Cisco IOU) & VMware Workstation[cite: 11, 30]
-* **Operating Systems:** Ubuntu Server (Web & Agent Host), Ubuntu Client, Kali Linux (Attacker Node)[cite: 11, 26, 45]
-* **Languages & Automation:** Python (Scapy, Sockets, Subprocess)[cite: 11, 34]
-* **Networking & Security Tools:** Wireshark, iptables, ApacheBench[cite: 11, 50]
+* **Simulation Platforms:** GNS3 (Cisco IOU) & VMware Workstation.
+* **Operating Systems:** Ubuntu Server (Web & Agent Host), Ubuntu Client, Kali Linux (Attacker Node).
+* **Languages & Automation:** Python (Scapy, Sockets, Subprocess).
+* **Networking & Security Tools:** Wireshark, iptables, ApacheBench.
 * ## 📊 Tested Attack Scenarios & Automated Mitigation
 
 | Attack Type | Target / Protocol | Detection Mechanism | Automated Response | MTTR (Response Time) |
