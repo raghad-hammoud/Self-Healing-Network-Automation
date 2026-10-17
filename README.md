@@ -57,7 +57,7 @@ Verify Mitigation: Inspect active iptables DROP rules:
 
 Bash
 sudo iptables -L -n -v
-
+---
 ⚠️Architectural Limitations & Future Scope
 This project serves as an academic proof-of-concept for network-aware reactive defense. Key known limitations and planned enhancements include:
 
